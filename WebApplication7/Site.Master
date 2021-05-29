@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication7.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Online Rental</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <style type="text/css">
+        .auto-style1 {
+            font-family: Verdana;
+            font-size: medium;
+            font-weight: bold;
+            text-align: center;
+        }
+        .auto-style2 {
+            width: 53px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body id="top">
+
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+        <h1><img src="images/35.png" class="auto-style2" /></h1>
+      <!-- ################################################################################################ -->
+    </div>
+   
+     <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+       
+       
+           
+           <li><a href="Displayhome.aspx"><i class="fa fa-fw fa-users"></i>Display Home</a></li>
+        <li><a href="viewstatus.aspx"><i class="fa fa-fw fa-users"></i>House Status</a></li>
+            <li><a href="edit.aspx"><i class="fa fa-fw fa-users"></i>Edit Profile</a></li>
+                  <li><a href="WebForm4.aspx"><i class="fa fa-fw fa-users"></i>Booked Details</a></li>
+            <li><a href="home.aspx"><i class="fa fa-fw fa-users"></i>Logout</a></li>
+      
+            
+        </ul>
+     
+    </nav>
+  </header>
+</div>
+
+<div class="wrapper bgded overlay gradient" style="background-image:url('images/demo/backgrounds/811.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+    
+      <h3 class="heading">Online Rental system</h3>
+     
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+        
+		
+
+		
+
+
+    
+   
+    
+	
+  
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+         <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+    <br /><br /><br />
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <div class="auto-style1">Copyrights 2021.All Rights Reserved.</div>
+</body>
+</html>
